@@ -8,11 +8,14 @@ Each item of dat returned by api represents the price of that timestamp, the fir
 
 WebSocket API: `wss://stream.binance.com/stream?streams=btcusdt@kline_1m`
 
-
 API requests and sockets have examples in the code. You should do the following function:
 
 First, drawing k-line based on historical data which indludes y-axis.
 
+Refer to index.html
+
 Second, drawing the latest bar based on socket data which should consider the performance of rendering
+
+Refer to index2.html
 
 You should spend around half a day on this exercise. You can use some packages for data processing, such as big.js,lodash,but can't use canvas labraries.
